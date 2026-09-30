@@ -2,9 +2,9 @@
 
 Ceci n'est pas le contrôle, juste un test pour vérifier que tout marche bien de ton côté avant l'épreuve de la semaine prochaine.
 
-Remplis ton nom, exécute la cellule (`Shift + Entrée`), puis télécharge ce notebook (`Fichier` puis `Télécharger`). Renomme le fichier téléchargé avec ton nom et prénom, puis dépose-le sur le lien du Google Form qu'on t'a donné.
+Remplis ton nom, exécute la cellule (`Shift + Entrée`). **Quand tu as complètement terminé** (et seulement à ce moment-là), télécharge ce notebook (`Fichier` puis `Télécharger`), renomme le fichier téléchargé avec ton nom et prénom, puis dépose-le sur [ce Google Form](https://forms.gle/xsiqrbGs62tBc9Wt7).
 
-%%
+Fiche mémo (aide-mémoire) : [l'ouvrir ici](https://lugdum.github.io/UELC3/fiche-memo.html).
 
 ```python
 nom_prenom = "..."
@@ -15,7 +15,9 @@ print(nom_prenom)
 
 ```python
 def bonjour(nom):
-    ...
+    return nom
 
 print(bonjour("Emma"))    # doit afficher Bonjour Emma !
+a = bonjour("Lucas")
+print(a)                  # doit afficher Bonjour Lucas !
 ```
