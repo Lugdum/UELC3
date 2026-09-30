@@ -15,7 +15,7 @@ print(nom_prenom)
 
 ```python
 def bonjour(nom):
-    return nom
+    ...
 
 print(bonjour("Emma"))    # doit afficher Bonjour Emma !
 a = bonjour("Lucas")
